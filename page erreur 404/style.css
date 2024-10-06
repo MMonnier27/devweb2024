@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 25.5;
+    text-shadow: -5px 2px 9px #000000;
+    animation: myAnim 10s ease 0s 1 normal forwards;
+}
+body {
+    background: #ffffff url(https://img.freepik.com/vecteurs-libre/astronaute-mignon-flottant-ballon-planete-dans-illustration-icone-vecteur-dessin-anime-espace-concept-icone-science-technologie-isole-vecteur-premium-style-dessin-anime-plat_138676-3850.jpg) center center/auto repeat;
+}
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
