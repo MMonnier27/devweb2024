@@ -6,7 +6,10 @@ h1 {
     animation: myAnim 10s ease 0s 1 normal forwards;
 }
 body {
-    background: #ffffff url(https://img.freepik.com/vecteurs-libre/astronaute-mignon-flottant-ballon-planete-dans-illustration-icone-vecteur-dessin-anime-espace-concept-icone-science-technologie-isole-vecteur-premium-style-dessin-anime-plat_138676-3850.jpg) center center/auto repeat;
+    background-image: url(https://img.freepik.com/vecteurs-libre/astronaute-mignon-flottant-ballon-planete-dans-illustration-icone-vecteur-dessin-anime-espace-concept-icone-science-technologie-isole-vecteur-premium-style-dessin-anime-plat_138676-3850.jpghttps://img.freepik.com/vecteurs-libre/astronaute-mignon-flottant-ballon-planete-dans-illustration-icone-vecteur-dessin-anime-espace-concept-icone-science-technologie-isole-vecteur-premium-style-dessin-anime-plat_138676-3850.jpg) ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 @keyframes myAnim {
 	0% {
